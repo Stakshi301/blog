@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const DB_URI = process.env.DEV_MONGO_URI;
+const DB_URI = process.env.DEV_MONGO_URI; 
 const MAX_RETRY_CONNECTIONS = Number(process.env.MAX_DB_RETRY_CONNECTIONS) || 10; // Ensure it's a number
 let retries = 0;
 
