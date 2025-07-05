@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import { mongoDB_connection } from './connection.js';
 import AuthRoutes from './routes/AuthRoutes.js';
 import BlogRoutes from './routes/BlogRoutes.js';
-
+ 
 const app = express();
 
 dotenv.config();
