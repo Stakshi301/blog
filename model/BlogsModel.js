@@ -4,7 +4,7 @@ import mongoose, { Schema } from "mongoose";
 const BlogSchema = new Schema({
     description: {
         type: String,
-        required: true
+        required: true 
     },
     timeStamp: {
         type: Date,
